@@ -62,7 +62,7 @@ public class CuentaBancariaServicio {
             cb.setSaldoActual(0);
         }
     }
-    
+      
     public void extraccionRapida(double dinero, CuentaBancaria cb){
         if(cb.getSaldoActual() * 0.2 >= dinero){
             cb.setSaldoActual(cb.getSaldoActual() - dinero);
